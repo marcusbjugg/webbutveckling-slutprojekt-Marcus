@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxchain</title>
+    <link rel="icon" href="bilder/logo.png" type="image/pngx">
+    <link rel="stylesheet" href="styling.css">
+    <script src="https://kit.fontawesome.com/3352094ddc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header id="topp-menu">
+        <nav class="centrera-topp-menu">
+            <a href="Luxchain.html">
+                <img src="bilder/logo.png" alt="logo" loading="lazy">
+            </a>
+            <div id="center">
+                <a href="Luxchain.html">Collections</a>        
+                <a href="bracelets.html">Bracelets</a>
+                <a href="chains.html">Chains</a>
+                <a href="about.html">About</a>
+            </div>
+            <div id="höger">
+                <i class="fa-regular fa-address-book contact"></i>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <article class="form-container">
+        <form id="form">
+            <label>First Name:</label>
+            <input type="text" name="FirstName" placeholder="First name" required>
+            <label>Surname:</label>
+            <input type="text" name="Surname" placeholder="Surname" required>
+            <label>Email Adress:</label>
+            <input type="email" name="Email" placeholder="username@domain" required>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="username" required>
+            <label>Gender:</label>
+            <select name="gender" id="gender" required>
+                <option value="">Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <textarea id="message" name="message" rows="12" cols="45" placeholder="Write your message here..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="container-fade" id="svar"></div>
+    </article>
+
+    <div id="meddelanden"></div>
+
+    <footer class="bottom-menu_container">
+        <div class="bottom-menu_inner">
+            <nav class="bottom-menu_icons">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.facebook.com/?locale=sv_SE" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            </nav>
+            <nav class="bottom-menu_links">
+                <a href="Luxchain.html">Collections</a>        
+                <a href="bracelets.html">Bracelets</a>
+                <a href="chains.html">Chains</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="location">
+                <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=18.06583642959595%2C59.442931548157816%2C18.07587862014771%2C59.44667858264877&amp;layer=mapnik&amp;marker=59.444805117290244%2C18.070857524871826" style="border: 1px solid black"></iframe><br><small><a href="https://www.openstreetmap.org/?mlat=59.444805&amp;mlon=18.070858#map=17/59.444805/18.070858" target="_blank">Extern länk till större karta</a></small>
+            </div>
+        </div>
+    </footer>
+    <script src="skript/topbar.js"></script>
+    <script src="skript/contact.js"></script>
+</body>
+</html>

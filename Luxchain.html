@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxhain</title>
+    <link rel="icon" href="bilder/logo.png" type="image/pngx">
+    <link rel="stylesheet" href="styling.css">
+    <script src="https://kit.fontawesome.com/3352094ddc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header id="topp-menu">
+        <nav class="centrera-topp-menu">
+            <a href="Luxchain.html">
+                <img src="bilder/logo.png" alt="logo" loading="lazy">
+            </a>
+            <div id="center">
+                <div class="dropdown">
+                    <button class="dropbtn">Collections ▾</button>
+                    <div class="dropdown-content" id="collections-dropdown">
+                        <a href="#diamond">Diamond</a>
+                        <a href="#gold">Gold</a>
+                    </div>
+                </div>
+                <a href="bracelets.html">Bracelets</a>
+                <a href="chains.html">Chains</a>
+                <a href="about.html">About</a>
+            </div>
+            <div id="höger">
+                <i class="fa-regular fa-address-book contact"></i>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="div1">
+        <video autoplay muted loop playsinline class="bg-video">
+    <source src="video/diamonds.mp4" type="video/mp4"></video>
+    <div class="video-overlay"></div>
+        <h1>Timeless Elegance</h1>
+        <h2>Authentic handcrafted luxury bracelets and chains</h2>
+        <a href="#featured-pieces" class="button">Explore Collection</a>
+    </div>
+
+    <div class="produktrader" id="featured-pieces">
+        <h2>Featured Pieces</h2>
+        <div class="sidoSkroll-container">
+            <button class="skrolla vänster" onclick="sidoSkrolla('vänster')">&#10094;</button>
+            <div class="sidoSkroll" id="sidoSkroll">
+                <div class="produkt">Royal Gold Chain<br>
+                    <img src="bilder/royal_gold.png" alt="Royal Gold" srcset="bilder/royal_gold_lower_quality.png 500w" sizes="(max-width: 480px) 62.5px, 200px"
+                    loading="lazy"><br>
+                    25.000kr</div>
+                <div class="produkt">Diamond Bracelet<br>
+                    <img src="bilder/diamond_bracelet.png" alt="Diamond Bracelet" srcset="bilder/diamond_bracelet_lower_quality.png 500w" sizes="(max-width: 480px) 62.5px, 200px"
+                    loading="lazy"><br>35.000kr</div>
+                <div class="produkt">Diamond Chain<br>
+                    <img src="bilder/diamond_chain.png" alt="Diamond Chain" srcset="bilder/diamond_chain_lower_quality.png 500w" sizes="(max-width: 480px) 62.5px, 200px"
+                    loading="lazy"><br>50.000kr</div>
+                <div class="produkt">Green Gold Chain<br>
+                    <img src="bilder/placeholder.png" alt="placeholder" loading="lazy"><br>
+                    25.000kr</div>
+                <div class="produkt">Pink Diamond Bracelet<br>
+                    <img src="bilder/placeholder.png" alt="placeholder" loading="lazy"><br>35.000kr</div>
+                <div class="produkt">Green Diamond Chain<br>
+                    <img src="bilder/placeholder.png" alt="placeholder" loading="lazy"><br>50.000kr</div>
+            </div>
+            <button class="skrolla höger" onclick="sidoSkrolla('höger')">&#10095;</button>
+        </div>
+    </div>
+
+    <div class="produktrader" id="gold">
+        <h2>Gold Pieces</h2>
+        <div class="sidoSkroll-container">
+            <button class="skrolla vänster" onclick="sidoSkrolla1('vänster')">&#10094;</button>
+            <div class="sidoSkroll" id="sidoSkroll1">
+                <div class="produkt">Royal Gold Chain<br>
+                    <img src="bilder/royal_gold.png" alt="Royal Gold" srcset="bilder/royal_gold_lower_quality.png 500w" sizes="(max-width: 480px) 62.5px, 200px"
+                    loading="lazy"><br>
+                    25.000kr</div>
+                <div class="produkt">Gold Bracelet<br>
+                    <img src="bilder/placeholder.png" alt="placeholder" loading="lazy"><br>35.000kr</div>
+                <div class="produkt">Gold Chain<br>
+                    <img src="bilder/placeholder.png" alt="placeholder" loading="lazy"><br>50.000kr</div>
+                <div class="produkt">Royal Gold Chain<br>
+                    <img src="bilder/placeholder.png" alt="placeholder" loading="lazy"><br>
+                    25.000kr</div>
+                <div class="produkt">Rose Gold Bracelet<br>
+                    <img src="bilder/placeholder.png" alt="placeholder" loading="lazy"><br>35.000kr</div>
+                <div class="produkt">Green Gold Chain<br>
+                    <img src="bilder/placeholder.png" alt="placeholder" loading="lazy"><br>50.000kr</div>
+            </div>
+            <button class="skrolla höger" onclick="sidoSkrolla1('höger')">&#10095;</button>
+        </div>
+    </div>
+
+    <div class="produktrader" id="diamond">
+        <h2>Diamond Pieces</h2>
+        <div class="sidoSkroll-container">
+            <button class="skrolla vänster" onclick="sidoSkrolla2('vänster')">&#10094;</button>
+            <div class="sidoSkroll" id="sidoSkroll2">
+                <div class="produkt">Royal Diamond Chain<br>
+                    <img src="bilder/placeholder.png" alt="placeholder" loading="lazy"><br>
+                    25.000kr</div>
+                <div class="produkt">Diamond Bracelet<br>
+                    <img src="bilder/diamond_bracelet.png" alt="Diamond Bracelet" srcset="bilder/diamond_bracelet_lower_quality.png 500w" sizes="(max-width: 480px) 62.5px, 200px"
+                    loading="lazy"><br>35.000kr</div>
+                <div class="produkt">Diamond Chain<br>
+                    <img src="bilder/diamond_chain.png" alt="Diamond Chain" srcset="bilder/diamond_chain_lower_quality.png 500w" sizes="(max-width: 480px) 62.5px, 200px"
+                    loading="lazy"><br>50.000kr</div>
+                <div class="produkt">Pink Diamond Chain<br>
+                    <img src="bilder/placeholder.png" alt="placeholder" loading="lazy"><br>
+                    25.000kr</div>
+                <div class="produkt">Pink Diamond Bracelet<br>
+                    <img src="bilder/placeholder.png" alt="placeholder" loading="lazy"><br>35.000kr</div>
+                <div class="produkt">Green Diamond Chain<br>
+                    <img src="bilder/placeholder.png" alt="placeholder" loading="lazy"><br>50.000kr</div>
+            </div>
+            <button class="skrolla höger" onclick="sidoSkrolla2('höger')">&#10095;</button>
+        </div>
+    </div>
+
+
+    <footer class="bottom-menu_container">
+        <div class="bottom-menu_inner">
+            <nav class="bottom-menu_icons">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.facebook.com/?locale=sv_SE" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            </nav>
+            <nav class="bottom-menu_links">
+                <a href="Luxchain.html">Collections</a>        
+                <a href="bracelets.html">Bracelets</a>
+                <a href="chains.html">Chains</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="location">
+                <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=18.06583642959595%2C59.442931548157816%2C18.07587862014771%2C59.44667858264877&amp;layer=mapnik&amp;marker=59.444805117290244%2C18.070857524871826" style="border: 1px solid black"></iframe><br><small><a href="https://www.openstreetmap.org/?mlat=59.444805&amp;mlon=18.070858#map=17/59.444805/18.070858" target="_blank">Extern länk till större karta</a></small>
+            </div>
+        </div>
+    </footer>
+<script src="skript/div1_video.js"></script>
+<script src="skript/topbar.js"></script>
+<script src="skript/skroll.js"></script>
+</body>
+</html>
